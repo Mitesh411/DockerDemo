@@ -1,4 +1,4 @@
-FROM maven:3.8.6-jdk-11
+FROM maven:3.8.7-openjdk-18-slim
 
 WORKDIR /apps/qa
 RUN chmod -R 777 /apps/qa
